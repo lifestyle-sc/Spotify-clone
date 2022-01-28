@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .button{
+    @apply w-3 h-3 md:w-5 md:h-5 cursor-pointer hover:scale-125 transition transform duration-100 ease-out;
+  }
+}
+
+.txt {
+  margin-left: 2px;
+  border-right: #fff 0.15rem solid;
+}
